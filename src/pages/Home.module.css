@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.caja {
+    background-image: url('../assets/Fondo_principal.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(100vh - 50px);
+    margin-top: 50px;
+}
+
+h1 {
+    color: white;
+}
