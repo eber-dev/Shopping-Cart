@@ -122,7 +122,10 @@ function Shop() {
                         </p>
                     </div>
 
-                    <button onClick={() => seleccionado(producto)}>
+                    <button
+                        className={style.agregar}
+                        onClick={() => seleccionado(producto)}
+                    >
                         Añadir
                     </button>
                 </div>
