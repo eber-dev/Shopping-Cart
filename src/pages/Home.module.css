@@ -11,6 +11,46 @@
     margin-top: 50px;
 }
 
-h1 {
+.caja > div {
+    border: 1px solid white;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.titulo {
     color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.parrafo {
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.catalogo {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding-inline: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.catalogo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
