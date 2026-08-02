@@ -7,6 +7,7 @@ function Navbar() {
         <nav className={style.navegacion}>
             <div className={style.logo}>
                 <img src={icono} alt="logo principal" />
+                <p>Tech Store</p>
             </div>
 
             <div className={style.opciones}>
