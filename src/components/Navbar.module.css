@@ -1,12 +1,11 @@
 .navegacion {
     display: flex;
     align-items: center;
-    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 70px;
     z-index: 1000;
     background: linear-gradient(
         90deg,
@@ -15,6 +14,19 @@
         #214a78 70%,
         #2b234a 100%
     );
+}
+
+.logo {
+    display: flex;
+}
+
+.logo > img {
+    height: 3rem;
+    width: auto;
+}
+
+.opciones {
+    display: flex;
 }
 
 .opcion {
