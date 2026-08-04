@@ -18,7 +18,6 @@
 
 .logo {
     display: flex;
-    border: 1px solid white;
     height: 100%;
     width: 45%;
     align-items: center;
@@ -41,7 +40,6 @@
 
 .opciones {
     display: flex;
-    border: 1px solid white;
     height: 100%;
     width: calc(100% - 45%);
     align-items: center;
@@ -53,4 +51,61 @@
     text-decoration: none;
     font-size: 1.5rem;
     font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 40%;
+        padding-inline: 1rem;
+    }
+
+    .logo img {
+        height: 2.5rem;
+    }
+
+    .logo p {
+        font-size: 1.2rem;
+    }
+
+    .opciones {
+        width: 60%;
+    }
+
+    .opcion {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navegacion {
+        height: 8rem;
+        flex-direction: column;
+        padding: 0.8rem 0;
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+
+    .logo > img {
+        height: 2.2rem;
+    }
+
+    .logo > p {
+        font-size: 1.1rem;
+    }
+
+    .opciones {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0.8rem 0;
+    }
+
+    .opcion {
+        font-size: 1rem;
+    }
 }
