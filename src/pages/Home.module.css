@@ -57,5 +57,25 @@
 @media (max-width: 576px) {
     .caja {
         margin-top: 8rem;
+        height: calc(100vh - 8rem);
+        background-position: 30% 50%;
+    }
+
+    .caja > div {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .parrafo {
+        font-size: 1.2rem;
+    }
+
+    .catalogo {
+        font-size: 1rem;
     }
 }
