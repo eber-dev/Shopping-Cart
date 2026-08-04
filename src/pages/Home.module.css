@@ -12,7 +12,6 @@
 }
 
 .caja > div {
-    border: 1px solid white;
     width: 45%;
     height: 100%;
     display: flex;
@@ -53,4 +52,10 @@
 .catalogo:hover {
     cursor: pointer;
     transform: scale(1.05);
+}
+
+@media (max-width: 576px) {
+    .caja {
+        margin-top: 8rem;
+    }
 }
