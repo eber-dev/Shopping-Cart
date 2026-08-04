@@ -90,7 +90,12 @@ function Cart() {
                             <strong>Descuento:</strong> {carrito.descuento}%
                         </p>
                     </div>
-                    <button onClick={() => eliminado(carrito)}>Eliminar</button>
+                    <button
+                        className={style.eliminar}
+                        onClick={() => eliminado(carrito)}
+                    >
+                        Eliminar
+                    </button>
                 </div>
             ))}
         </div>
