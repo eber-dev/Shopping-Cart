@@ -10,3 +10,22 @@
     height: calc(100vh - 70px);
     margin-top: 70px;
 }
+
+.elemento {
+    display: flex;
+    border: 1px solid white;
+}
+
+.elemento > img {
+    filter: invert(1);
+}
+
+.informacion {
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .caja {
+        margin-top: 8rem;
+    }
+}
