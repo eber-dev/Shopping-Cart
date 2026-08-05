@@ -11,13 +11,28 @@ function Navbar() {
             </div>
 
             <div className={style.opciones}>
-                <NavLink className={style.opcion} to="/">
+                <NavLink
+                    className={({ isActive }) =>
+                        `${style.opcion} ${isActive ? style.activo : ''}`
+                    }
+                    to="/"
+                >
                     Home
                 </NavLink>
-                <NavLink className={style.opcion} to="/shop">
+                <NavLink
+                    className={({ isActive }) =>
+                        `${style.opcion} ${isActive ? style.activo : ''}`
+                    }
+                    to="/shop"
+                >
                     Shop
                 </NavLink>
-                <NavLink className={style.opcion} to="/cart">
+                <NavLink
+                    className={({ isActive }) =>
+                        `${style.opcion} ${isActive ? style.activo : ''}`
+                    }
+                    to="/cart"
+                >
                     Cart
                 </NavLink>
             </div>
